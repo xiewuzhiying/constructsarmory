@@ -2,13 +2,13 @@
   "perStat": {
     "constructsarmory:mail": [
       {
-        "name": "constructsarmory:reinforced",
+        "name": "tconstruct:sturdy",
         "level": 1
       }
     ],
     "constructsarmory:plate": [
       {
-        "name": "constructsarmory:reinforced",
+        "name": "tconstruct:sturdy",
         "level": 1
       }
     ]
