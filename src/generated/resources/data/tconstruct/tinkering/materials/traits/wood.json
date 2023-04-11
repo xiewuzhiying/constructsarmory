@@ -2,13 +2,13 @@
   "perStat": {
     "constructsarmory:mail": [
       {
-        "name": "constructsarmory:cultivated",
+        "name": "tconstruct::cultivated",
         "level": 1
       }
     ],
     "constructsarmory:plate": [
       {
-        "name": "constructsarmory:cultivated",
+        "name": "tconstruct::cultivated",
         "level": 1
       }
     ]

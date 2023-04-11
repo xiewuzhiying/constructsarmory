@@ -2,13 +2,21 @@
   "perStat": {
     "constructsarmory:mail": [
       {
-        "name": "constructsarmory:overlord",
+        "name": "tconstruct:overlord",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:overslime",
         "level": 1
       }
     ],
     "constructsarmory:plate": [
       {
-        "name": "constructsarmory:overlord",
+        "name": "tconstruct:overlord",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:overslime",
         "level": 1
       }
     ]

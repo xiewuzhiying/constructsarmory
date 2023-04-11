@@ -1,0 +1,33 @@
+{
+    "modifier.constructsarmory":
+    {
+        "enkindling":           "#DBCC0B",
+        "bloodletting":         "#B30000",
+        "splintered":           "#D1D37A",
+        "immaculate_2":         "#D58F36",
+        "nimble":               "#2882d4",
+        "fervent":              "#9C5643",
+        "delving":              "#E77C56",
+        "experienced":          "#e8db49",
+        "endershield":          "#a92dff",
+        "acceleration":         "#60496b",
+        "stable":               "#A3B1A8",
+        "shielding":            "#575E79",
+        "woven":                "#C65C35",
+        "vengeful":             "#9261cc",
+        "prickly":              "#601cc4",
+        "blighted":             "#7F9374",
+        "malignant":            "#4D4D4D",
+        "dense":                "#BED3CD",
+        "savory":               "#F0A8A4",
+        "radiant":              "#A3E7FE",
+        "petrous":              "#999999",
+        "igneous":              "#4F4A47",
+        "hallowed":             "#D3DFE8",
+        "aerial":               "#00F4DA",
+        "ductile":              "#959595",
+        "weighty":              "#D1C08B",
+        "solar_powered":        "#48B518",
+        "stoneguard":           "#E0E9EC"
+    }
+}

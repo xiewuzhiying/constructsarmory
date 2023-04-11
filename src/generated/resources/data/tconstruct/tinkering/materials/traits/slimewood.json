@@ -2,15 +2,24 @@
   "perStat": {
     "constructsarmory:mail": [
       {
-        "name": "constructsarmory:overgrowth",
+        "name": "tconstruct:overgrowth",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:overslime",
         "level": 1
       }
     ],
     "constructsarmory:plate": [
       {
-        "name": "constructsarmory:overgrowth",
+        "name": "tconstruct:overgrowth",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:overslime",
         "level": 1
       }
+
     ]
   }
 }
