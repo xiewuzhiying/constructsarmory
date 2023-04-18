@@ -110,7 +110,7 @@
   "modifier.constructsarmory.shielding": "护盾",
   "modifier.constructsarmory.shielding.flavor": "§o护盾启动！",
   "modifier.constructsarmory.shielding.description": "减少负面状态效果，增加正面状态效果",
-  "modifier.constructsarmory.stoneguard": "石盾",
+  "modifier.constructsarmory.stoneguard": "石卫",
   "modifier.constructsarmory.stoneguard.flavor": "§o大师级的制石工艺",
   "modifier.constructsarmory.stoneguard.description": "拾取的石头有概率保护盔甲免受未来的耐久度损失",
   "__comment": "三级特性",
