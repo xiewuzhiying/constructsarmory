@@ -61,11 +61,11 @@ public class ScornModifier extends TotalArmorLevelModifier {
     }
 
     private static float calculateDamageReduction(int level) {
-        float reduction = 0.2f;
+        float reduction = 0.3f;
         float currentReduction = reduction;
 
         for (int i = 1; i < level; i++) {
-            currentReduction *= 0.6f;
+            currentReduction *= 0.8f;
             reduction += currentReduction;
         }
 
