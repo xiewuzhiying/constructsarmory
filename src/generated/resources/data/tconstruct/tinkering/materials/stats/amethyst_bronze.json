@@ -3,7 +3,7 @@
     "constructsarmory:mail": {
       "durability": 1.1,
       "armor": 0.9,
-      "movementSpeed": 1.15
+      "movementSpeed": 1.1
     },
     "constructsarmory:plate": {
       "durability": 414,
