@@ -65,7 +65,7 @@ public class ScornModifier extends TotalArmorLevelModifier {
         float currentReduction = reduction;
 
         for (int i = 1; i < level; i++) {
-            currentReduction *= 0.78f;
+            currentReduction *= 0.65f;
             reduction += currentReduction;
         }
 
