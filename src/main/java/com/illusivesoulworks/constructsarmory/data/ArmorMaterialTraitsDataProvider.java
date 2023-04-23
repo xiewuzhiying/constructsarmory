@@ -76,6 +76,7 @@ public class ArmorMaterialTraitsDataProvider extends AbstractMaterialTraitDataPr
     addArmorTraits(MaterialIds.cobalt, ConstructsArmoryModifiers.NIMBLE);
     addArmorTraits(MaterialIds.pigIron, ConstructsArmoryModifiers.SAVORY);
     addArmorTraits(MaterialIds.nahuatl, ConstructsArmoryModifiers.PRICKLY);
+    addArmorTraits(MaterialIds.amethystBronze, ConstructsArmoryModifiers.SCORN);
 
     // Tier 3 Addons
     addArmorTraits(MaterialIds.steel, ConstructsArmoryModifiers.DUCTILE);

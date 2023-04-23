@@ -26,6 +26,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import org.apache.commons.logging.impl.WeakHashtable;
 import slimeknights.tconstruct.common.TinkerEffect;
 import slimeknights.tconstruct.tools.modifiers.effect.NoMilkEffect;
 import com.illusivesoulworks.constructsarmory.ConstructsArmoryMod;
@@ -47,7 +48,7 @@ public class ConstructsArmoryEffects {
   public static final RegistryObject<TinkerEffect> BLOODLETTING =
       POTIONS.register("bloodletting", MARKER_EFFECT.apply(0xb30000));
 
-  public static void init() {
+    public static void init() {
     IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
     POTIONS.register(bus);
   }

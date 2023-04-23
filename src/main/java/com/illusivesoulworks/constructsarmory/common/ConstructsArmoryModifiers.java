@@ -35,6 +35,7 @@ import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.Petro
 import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.StableModifier;
 import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.VengefulModifier;
 import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.WeightyModifier;
+import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.ScornModifier;
 import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.counter.BlightedModifier;
 import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.counter.BloodlettingModifier;
 import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.counter.CounterattackModifier;
@@ -117,6 +118,8 @@ public class ConstructsArmoryModifiers {
       MODIFIERS.register("prickly", PricklyModifier::new);
   public static final StaticModifier<SavoryModifier> SAVORY =
       MODIFIERS.register("savory", SavoryModifier::new);
+  public static final StaticModifier<ScornModifier> SCORN =
+          MODIFIERS.register("scorn", ScornModifier::new);
 
   // Tier 3 Addons
   public static final StaticModifier<DuctileModifier> DUCTILE =
