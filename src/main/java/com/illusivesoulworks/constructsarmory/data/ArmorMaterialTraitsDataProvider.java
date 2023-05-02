@@ -49,6 +49,7 @@ public class ArmorMaterialTraitsDataProvider extends AbstractMaterialTraitDataPr
     addArmorTraits(MaterialIds.rock, ConstructsArmoryModifiers.PETROUS);
     addArmorTraits(MaterialIds.leather, ConstructsArmoryModifiers.WOVEN);
     addArmorTraits(MaterialIds.bone, ConstructsArmoryModifiers.SPLINTERED);
+    addArmorTraits(MaterialIds.flint, ConstructsArmoryModifiers.IRREGULAR);
     addTraits(MaterialIds.vine, MailMaterialStats.ID,
         ConstructsArmoryModifiers.SOLAR_POWERED);
 

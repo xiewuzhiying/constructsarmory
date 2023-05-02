@@ -29,6 +29,7 @@
         "weighty":              "#D1C08B",
         "solar_powered":        "#48B518",
         "stoneguard":           "#E0E9EC",
-        "scorn":                "#C687BD"
+        "scorn":                "#C687BD",
+        "irregular":            "#696969"
     }
 }

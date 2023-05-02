@@ -17,6 +17,7 @@
 
 package com.illusivesoulworks.constructsarmory.common;
 
+import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import slimeknights.tconstruct.library.modifiers.util.ModifierDeferredRegister;
@@ -29,13 +30,6 @@ import slimeknights.tconstruct.tools.modifiers.traits.general.OverlordModifier;
 import slimeknights.tconstruct.tools.modifiers.traits.general.OverworkedModifier;
 import slimeknights.tconstruct.tools.modifiers.traits.general.SolarPoweredModifier;
 import com.illusivesoulworks.constructsarmory.ConstructsArmoryMod;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.HallowedModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.IgneousModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.PetrousModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.StableModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.VengefulModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.WeightyModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.ScornModifier;
 import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.counter.BlightedModifier;
 import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.counter.BloodlettingModifier;
 import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.counter.CounterattackModifier;
@@ -76,6 +70,8 @@ public class ConstructsArmoryModifiers {
       MODIFIERS.register("splintered", SplinteredModifier::new);
   public static final StaticModifier<SolarPoweredModifier> SOLAR_POWERED =
       MODIFIERS.register("solar_powered", SolarPoweredModifier::new);
+  public static final StaticModifier<IrregularModifier> IRREGULAR =
+      MODIFIERS.register("irregular", IrregularModifier::new);
 
   // Tier 2
   public static final StaticModifier<ReinforcedModifier> REINFORCED =
